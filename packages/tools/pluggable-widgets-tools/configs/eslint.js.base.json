@@ -24,9 +24,10 @@
     "plugins": ["jest", "react"],
     "rules": {
         "no-unused-vars": [
-            "warn",
+            "error",
             {
-                "varsIgnorePattern": "createElement"
+                "varsIgnorePattern": "createElement",
+                "args": "none"
             }
         ],
 
